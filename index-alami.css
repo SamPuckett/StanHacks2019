@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    
+    background-size: 40%;
+    background-color: white;
+    /* The image used */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: 85%;
+    background-image: url(chatting.svg);
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+  }
+  
+  main {
+    flex: 1 0 auto;
+    font-family: 'Quicksand', sans-serif;
+  
+  }
+  
+  .landingTitle {
+    color: black;
+  }
+  
+  #landingImage {
+    background-image: url(chatting.svg);
+    background-position: center;
+  }
+  
+  hr {
+    border: 2px solid #CC8A00
+  }
+  
+  i.icon-black {
+      color: black;
+  }
+  
+  @media (max-width: 700px) {
+      body {
+          background: white;
+          background-image: none;
+      }
+  }
+
+  #sign-up-button {
+      border-radius: 10px;
+      background-color: #cb333b !important;
+  }
+
+  #topLandingTitle {
+      color: #cb333b !important;
+  }
+
+  .StanYellow {
+    color: #CC8A00 !important;
+}

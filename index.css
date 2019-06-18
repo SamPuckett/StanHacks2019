@@ -1,60 +1,94 @@
+/* * {
+    border: red solid 1px;
+} */
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Quicksand', sans-serif;
-    
-    background-size: 40%;
+
+    background-size: 75%;
     background-color: white;
     /* The image used */
     height: 500px;
     /* You must set a specified height */
-    background-position: 85%;
-    background-image: url(chatting.svg);
+    background-position: center;
+    background-image: url();
     /* Center the image */
     background-repeat: no-repeat;
     /* Do not repeat the image */
-  }
-  
-  main {
+}
+
+main {
     flex: 1 0 auto;
     font-family: 'Quicksand', sans-serif;
-  
-  }
-  
-  .landingTitle {
+
+}
+
+.landingTitle {
     color: black;
-  }
-  
-  #landingImage {
-    background-image: url(chatting.svg);
-    background-position: center;
-  }
-  
-  hr {
+}
+
+hr {
     border: 2px solid #CC8A00
-  }
-  
-  i.icon-black {
-      color: black;
-  }
-  
-  @media (max-width: 700px) {
-      body {
-          background: white;
-          background-image: none;
-      }
-  }
+}
 
-  #sign-up-button {
-      border-radius: 10px;
-      background-color: #cb333b !important;
-  }
+i.icon-black {
+    color: black;
+}
 
-  #topLandingTitle {
-      color: #cb333b !important;
-  }
+@media (max-width: 700px) {
+    body {
+        background: white;
+        background-image: none;
+    }
+}
 
-  .StanYellow {
+#sign-up-button {
+    border-radius: 10px;
+    background-color: #cb333b !important;
+}
+
+#topLandingTitle {
+    color: #cb333b !important;
+}
+
+.StanYellow {
     color: #CC8A00 !important;
+}
+
+.StanRed {
+    color: #cb333b !important;
+}
+
+.StanRed-Background {
+    background-color: #cb333b !important;
+}
+
+.spacer-small {
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+.test {
+    margin-top: 0 !important;
+    margin-left: 43% !important;
+    width: 55%;
+}
+
+.test2 {
+    margin-top: 0 !important;
+    margin-left: 0% !important;
+    width: 55%;
+}
+
+h1 {
+    font-size: 2em !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.block-link {
+    display: block;
 }
